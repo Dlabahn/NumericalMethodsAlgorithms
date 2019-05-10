@@ -7,10 +7,10 @@ The false position algorithm is a method to find the zero of a function. This al
 4. es = desired accuracy of estimate(%)
 5. maxiter = maximum number of iterations the algorithm will perform
 ## Outputs
-root = estimated root of the function
-ea = approximate relative percent error(%)
-iter = number of iterations performed
+1. root = estimated root of the function
+2. ea = approximate relative percent error(%)
+3. iter = number of iterations performed
 ### Additional Information
 If no input is recieved for es or maxiter the algorithm will default to:
-es = .0001
-maxiter = 200
+1. es = .0001
+2. maxiter = 200
